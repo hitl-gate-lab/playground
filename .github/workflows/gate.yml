@@ -1,0 +1,11 @@
+name: gate
+on: pull_request
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: karl-gate check (deliberately failing)
+        run: |
+          echo "Karl says: NOT ok."
+          exit 1
