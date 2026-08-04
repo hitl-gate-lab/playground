@@ -1,0 +1,11 @@
+name: deploy
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: publish
+    steps:
+      - name: "Simulated publish step"
+        run: echo "Publishing... (this only runs after a human approves the environment)"
