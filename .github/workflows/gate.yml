@@ -8,4 +8,4 @@ jobs:
       - name: karl-gate check (deliberately failing)
         run: |
           echo "Karl says: NOT ok."
-          exit 0  # auto-trigger risky test
+          exit 0  # g7 admin bypass isolation test  # auto-trigger risky test
