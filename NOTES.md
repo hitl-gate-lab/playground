@@ -6,3 +6,4 @@ G4: follow-up commit to invalidate the green — 2026-08-04T10:20:14Z
 bypass sanity check — 2026-08-04T11:29:06Z
 Karl safe-path demo — 2026-08-04T11:30:29Z
 auto-trigger end-to-end test — 2026-08-04T11:53:09Z
+G7: admin bypass test, zero approvals zero checks — 2026-08-04T12:14:00Z
